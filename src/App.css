@@ -1,0 +1,19 @@
+.App {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.App > .nav-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.App > .main-container {
+    display: flex;
+    flex-direction: column;
+}
+.main-container > *{
+    height: 100vh;
+}
+
+
